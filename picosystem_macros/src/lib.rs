@@ -1,9 +1,9 @@
 mod atlas;
 mod map;
-use std::env;
-use std::path::PathBuf;
 use image::io::Reader as ImageReader;
 use proc_macro::TokenStream;
+use std::env;
+use std::path::PathBuf;
 use syn::parse::{Parse, ParseStream, Result};
 use syn::{parse_macro_input, Ident, LitInt, LitStr, Token};
 

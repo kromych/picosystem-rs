@@ -50,7 +50,7 @@ pub fn init(
 
     unsafe {
         log::set_logger_racy(&LOGGER)
-            .map(|()| log::set_max_level(LevelFilter::Info))
+            .map(|()| log::set_max_level_racy(LevelFilter::Info))
             .unwrap();
     }
 

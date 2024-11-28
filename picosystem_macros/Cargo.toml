@@ -12,12 +12,12 @@ proc-macro = true
 crate-type = ["proc-macro"]
 
 [dependencies]
-log = "0.4.14"
-image = "0.24.1"
-structopt = "0.3.26"
-rustfmt-wrapper = "0.1.0"
-glob = "0.3.0"
-syn = "1.0.109" # keep this at 1.0.x
+log = "0.4"
+image = "0.25"
+structopt = "0.3"
+rustfmt-wrapper = "0.2"
+glob = "0.3"
+syn = "1.0" # keep this at 1.0.x
 picosystem_compressor = { path = "../compressor" }
 # picosystem = { path = "../picosystem" }
-tiled = "0.11.1"
+tiled = "0.13"
